@@ -32,10 +32,14 @@ git clone https://github.com/smart-methods/arduino_robot_arm.git
 
 cd ~/catkin_ws
 ```
+You have change the catkin workspace every time you creat a project
+
+```
 rosdep install --from-paths src --ignore-src -r -y
 ```
   For noetic:::::::::::::::::
-  ```
+  
+```
 $ sudo apt-get install ros-noetic-moveit
 $ sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui
 $ sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher
